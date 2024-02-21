@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  height: 100vh;
+  width: 100vw;
+}
+.main{
+  height: 70%;
+  width: 300px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+}
+.row1 input{
+height: 70px;
+width: 250px;
+margin: 10px;
+}
+.btn{
+  height: 40px;
+  width: 50px;
+  border-radius: 2px;
+  border: none;
+  margin: 3px;
+  cursor: pointer;
+}
+.clear{
+  background-color: orangered;
+}
+.equal{
+background-color: orangered;
+width: 230px;
+}
